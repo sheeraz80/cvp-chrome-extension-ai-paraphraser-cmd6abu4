@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "E",
+  "name": "AI Paraphraser",
   "version": "1.0.0",
   "description": "A Chrome extension for enhanced web development productivity.",
   "permissions": [
@@ -16,16 +16,16 @@
     "clipboardWrite"
   ],
   "background": {
-    "service_worker": "src/background/service-worker.ts",
+    "service_worker": "service-worker-loader.js",
     "type": "module"
   },
   "content_scripts": [
     {
+      "js": [
+        "chunks/content-script.ts-CdssDd9G.js"
+      ],
       "matches": [
         "<all_urls>"
-      ],
-      "js": [
-        "src/content/content-script.ts"
       ],
       "run_at": "document_start",
       "all_frames": true
@@ -33,7 +33,7 @@
   ],
   "action": {
     "default_popup": "src/popup/index.html",
-    "default_title": "E"
+    "default_title": "AI Paraphraser"
   },
   "options_page": "src/options/index.html",
   "content_security_policy": {
@@ -41,13 +41,15 @@
   },
   "web_accessible_resources": [
     {
-      "resources": [
-        "assets/*",
-        "chunks/*"
-      ],
       "matches": [
         "<all_urls>"
-      ]
+      ],
+      "resources": [
+        "assets/*",
+        "chunks/*",
+        "chunks/content-script.ts-CdssDd9G.js"
+      ],
+      "use_dynamic_url": false
     }
   ]
 }

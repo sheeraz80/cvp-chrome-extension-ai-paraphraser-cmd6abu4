@@ -1,0 +1,42 @@
+{
+  "../../../../../../../@crx/manifest": {
+    "file": "chunks/crx-manifest.js-CVDykdLM.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_client-DH6SvFLX.js": {
+    "file": "chunks/client-DH6SvFLX.js",
+    "name": "client"
+  },
+  "src/background/service-worker.ts": {
+    "file": "chunks/service-worker.ts-DiEok8mK.js",
+    "name": "service-worker.ts",
+    "src": "src/background/service-worker.ts",
+    "isEntry": true
+  },
+  "src/content/content-script.ts": {
+    "file": "chunks/content-script.ts-CdssDd9G.js",
+    "name": "content-script.ts",
+    "src": "src/content/content-script.ts",
+    "isEntry": true
+  },
+  "src/options/index.html": {
+    "file": "chunks/index.html-BJVhw7os.js",
+    "name": "index.html",
+    "src": "src/options/index.html",
+    "isEntry": true,
+    "imports": [
+      "_client-DH6SvFLX.js"
+    ]
+  },
+  "src/popup/index.html": {
+    "file": "chunks/index.html-C_VuVct1.js",
+    "name": "index.html",
+    "src": "src/popup/index.html",
+    "isEntry": true,
+    "imports": [
+      "_client-DH6SvFLX.js"
+    ]
+  }
+}

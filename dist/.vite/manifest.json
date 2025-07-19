@@ -1,6 +1,6 @@
 {
   "../../../../../../../@crx/manifest": {
-    "file": "chunks/crx-manifest.js-CVDykdLM.js",
+    "file": "chunks/crx-manifest.js-Ckrzxhu_.js",
     "name": "crx-manifest.js",
     "src": "../../../../../../../@crx/manifest",
     "isEntry": true
@@ -22,7 +22,7 @@
     "isEntry": true
   },
   "src/options/index.html": {
-    "file": "chunks/index.html-BJVhw7os.js",
+    "file": "chunks/index.html-C3_Y6H8O.js",
     "name": "index.html",
     "src": "src/options/index.html",
     "isEntry": true,

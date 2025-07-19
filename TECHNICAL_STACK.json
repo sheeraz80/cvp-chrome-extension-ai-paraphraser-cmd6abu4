@@ -1,0 +1,21 @@
+{
+  "id": "cmd6ae4hc01nzqjnl8rumdwbi",
+  "blueprintId": "cmd6ae4ha01nxqjnlb6o7dhed",
+  "framework": "FastAPI",
+  "language": "Python",
+  "buildTools": [
+    "Poetry",
+    "pip"
+  ],
+  "storage": [
+    "PostgreSQL",
+    "Redis"
+  ],
+  "mlRuntime": "PyTorch",
+  "uiLibrary": "Streamlit",
+  "loadTimeTarget": 2000,
+  "memoryLimit": 256,
+  "offlineStorage": 500,
+  "createdAt": "2025-07-16T18:20:32.688Z",
+  "updatedAt": "2025-07-17T17:38:09.795Z"
+}
